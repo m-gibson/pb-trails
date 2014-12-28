@@ -2,30 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Unconfirmed.kml</name>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00aaff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin">
+	<Style id="sh_ylw-pushpin13">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -38,29 +15,6 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055ff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_ylw-pushpin15">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -84,17 +38,53 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin13">
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -107,6 +97,62 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -120,19 +166,9 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin0">
+	<Style id="sh_ylw-pushpin0">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -156,7 +192,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin0">
+	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -186,7 +222,7 @@
 		<name>Unconfirmed</name>
 		<Placemark>
 			<name>MMH 18</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -205,18 +241,8 @@
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>MMH 6</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					-121.9266818757794,36.58779129000098,0 -121.9265556032139,36.58779097656681,0 -121.9264394224511,36.58789784905238,0 -121.9263373356531,36.58796991442672,0 -121.9261564499224,36.58799958281441,0 -121.9259939285579,36.58803772191879,0 -121.9258352089486,36.58803730154282,0 -121.9258293821174,36.58803556001288,0 -121.9256810105772,36.58802092004281,0 -121.925502236258,36.58802544802262,0 -121.9253944106155,36.58804683126444,0 -121.9252616473352,36.58804081984354,0 -121.9251798663623,36.587959438143,0 -121.9251728077056,36.58795186761564,0 -121.9250482934884,36.58781465190119,0 -121.925045109633,36.58781371266469,0 -121.9249355695015,36.58766287738209,0 -121.9248431403061,36.58756438755945,0 -121.9248016872352,36.58752152551268,0 -121.924658155359,36.58748046591036,0 -121.9245848791859,36.58733355059241,0 -121.9245687255867,36.58727917433969,0 -121.9244465762996,36.58721030541337,0 -121.9244807783646,36.5871243656365,0 -121.9243306695483,36.58707219444877,0 -121.9243041952231,36.58706636705082,0 -121.9241315474438,36.58703371846048,0 -121.9241157574872,36.58703162710194,0 -121.9239244419495,36.5869923764268,0 -121.9239138942818,36.58698887305187,0 -121.9238191648722,36.58693428593196,0 -121.9237247609174,36.58686899546215,0 -121.9236531988128,36.5868430175766,0 -121.9236375699694,36.58684319518257,0 -121.9235731661268,36.58682227681523,0 -121.9235641719799,36.58674957813464,0 -121.9236899775499,36.58667067253249,0 -121.9237059474955,36.5866596857926,0 -121.9237876264618,36.58658323566361,0 -121.9238605902259,36.5864990095327,0 -121.9238367357514,36.58644486212506,0 -121.923804556407,36.58641510900841,0 -121.9237856979572,36.58639445101468,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
 			<name>MMH 5</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -226,7 +252,7 @@
 		</Placemark>
 		<Placemark>
 			<name>MMH 4</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -236,7 +262,7 @@
 		</Placemark>
 		<Placemark>
 			<name>MMH 3</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -246,7 +272,7 @@
 		</Placemark>
 		<Placemark>
 			<name>MMH2</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -256,21 +282,11 @@
 		</Placemark>
 		<Placemark>
 			<name>MMH 1</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
-					-121.9267284010806,36.58775505887206,0 -121.9266562859693,36.58771558109547,0 -121.9267018182776,36.58767772497249,0 -121.9267182753393,36.58762740531227,0 -121.9266995293094,36.58755244097952,0 -121.9266784224402,36.58749988905122,0 -121.9266613651867,36.58748200585805,0 -121.9266321280766,36.58756586343489,0 -121.9265749563741,36.58756681980619,0 -121.9265325917308,36.587532314983,0 -121.9264840184015,36.58750621385239,0 -121.9264651101862,36.58750222268461,0 -121.9264204661441,36.58751831086082,0 -121.9263551720094,36.58756532580877,0 -121.9262743780095,36.58756440082561,0 -121.9261527620279,36.58754040535472,0 -121.9260574589484,36.58751720024842,0 -121.9260513474711,36.58747205141267,0 -121.9260632688108,36.58743217425657,0 -121.9260952903187,36.58738632340424,0 -121.9260754449335,36.58732705365093,0 -121.9260577264501,36.58728649650206,0 -121.9260242124566,36.58723049674367,0 -121.9259478044024,36.58719448720325,0 -121.9258896847908,36.58720278107531,0 -121.9258381763127,36.58720500860597,0 -121.9258284920054,36.58719343282827,0 -121.9258399619619,36.58714388846214,0 -121.925851375952,36.58709458616287,0 -121.9258421157919,36.58703759036293,0 -121.9257720072196,36.5870088899238,0 -121.9256929128764,36.58696537521063,0 -121.9256613635925,36.58695430429378,0 -121.9256581423692,36.58700746717056,0 -121.9255749683448,36.58703436222076,0 -121.9255566725166,36.58706406856804,0 -121.9255220020312,36.5870561859119,0 -121.925460838649,36.58699830166543,0 -121.9254431194156,36.58693599836398,0 -121.9254326506022,36.58688541129551,0 -121.9254003386296,36.58688008621964,0 -121.9254131870702,36.58683084946295,0 -121.9253351356279,36.58679590663629,0 -121.9252988846571,36.586783942228,0 -121.9252294163164,36.58684377734567,0 -121.9251887436318,36.58689301651621,0 -121.9250824724099,36.58688565273564,0 -121.9250421292295,36.58694351140418,0 -121.9249914276437,36.58700665352989,0 -121.924996656715,36.58706093316533,0 -121.9249413056014,36.58704498912274,0 -121.9249224427318,36.58696220109356,0 -121.9249090512406,36.58689746638996,0 -121.9248846289615,36.58682649886158,0 -121.9248511301065,36.58677745417027,0 -121.9248058793758,36.58671332260323,0 -121.9247631925675,36.58666910839272,0 -121.924704089505,36.58660367131652,0 -121.9246890195312,36.58655618549291,0 -121.9246885847983,36.58652212316428,0 -121.9247404770804,36.58643336009659,0 -121.924854738738,36.58638164733151,0 -121.9250266175163,36.58631852394699,0 -121.9252134151415,36.58623661771195,0 -121.9253014953971,36.58617385250339,0 -121.9253078681345,36.5860979990085,0 -121.9252731626748,36.58601954020868,0 -121.9252266016868,36.58595153381834,0 -121.9251278264148,36.58585268983175,0 -121.9250521321224,36.58581799637817,0 -121.9249480515195,36.58583775715312,0 -121.9249459788872,36.58584054190366,0 -121.9248189084415,36.58588177420659,0 -121.9248120324754,36.58588382085631,0 -121.924798873255,36.5858860033558,0 -121.9246852933218,36.58591607798572,0 -121.9244816377335,36.58602579412963,0 -121.9242497117891,36.58601465671118,0 -121.9242461472667,36.58601007826495,0 -121.9240962919605,36.58599853494147,0 -121.924078963769,36.58600232638941,0 -121.9239529786493,36.58602645151296,0 -121.9238839572693,36.58603785417969,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>MMH 9</name>
-			<styleUrl>#msn_ylw-pushpin7</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					-121.929412233915,36.5857015855659,0 -121.9293522624167,36.58554926910755,0 -121.9292599766824,36.58539041419591,0 -121.9291248929664,36.58524994643039,0 -121.9290032178198,36.58523067830429,0 -121.9289509602766,36.5850912587094,0 -121.9287628685523,36.58486841434078,0 -121.9287220600744,36.58462722866992,0 -121.9286135973991,36.58449732495521,0 -121.9283997699044,36.58429643836406,0 -121.9282288111363,36.58408922751548,0 -121.9280201130552,36.58381931947597,0 -121.9278368046051,36.58362837471569,0 -121.9278358323431,36.58355246499389,0 -121.9281004547791,36.58323484294614,0 -121.9281571063325,36.58312733536258,0 
+					-121.9267284010806,36.58775505887206,0 -121.9266562859693,36.58771558109547,0 -121.9267018182776,36.58767772497249,0 -121.9267182753393,36.58762740531227,0 -121.9266995293094,36.58755244097952,0 -121.9266784224402,36.58749988905122,0 -121.9266613651867,36.58748200585805,0 -121.9266321280766,36.58756586343489,0 -121.9265749563741,36.58756681980619,0 -121.9265325917308,36.587532314983,0 -121.9264840184015,36.58750621385239,0 -121.9264651101862,36.58750222268461,0 -121.9264204661441,36.58751831086082,0 -121.9263551720094,36.58756532580877,0 -121.9262743780095,36.58756440082561,0 -121.9261527620279,36.58754040535472,0 -121.9260574589484,36.58751720024842,0 -121.9260513474711,36.58747205141267,0 -121.9260632688108,36.58743217425657,0 -121.9260952903187,36.58738632340424,0 -121.9260754449335,36.58732705365093,0 -121.9260577264501,36.58728649650206,0 -121.9260242124566,36.58723049674367,0 -121.9259478044024,36.58719448720325,0 -121.9258896847908,36.58720278107531,0 -121.9258381763127,36.58720500860597,0 -121.9258284920054,36.58719343282827,0 -121.9258399619619,36.58714388846214,0 -121.925851375952,36.58709458616287,0 -121.9258421157919,36.58703759036293,0 -121.9257720072196,36.5870088899238,0 -121.9256929128764,36.58696537521063,0 -121.9256613635925,36.58695430429378,0 -121.9256581423692,36.58700746717056,0 -121.9255749683448,36.58703436222076,0 -121.9255566725166,36.58706406856804,0 -121.9255220020312,36.5870561859119,0 -121.925460838649,36.58699830166543,0 -121.9254431194156,36.58693599836398,0 -121.9254326506022,36.58688541129551,0 -121.9254003386296,36.58688008621964,0 -121.9254131870702,36.58683084946295,0 -121.9253351356279,36.58679590663629,0 -121.9252988846571,36.586783942228,0 -121.9252294163164,36.58684377734567,0 -121.9251887436318,36.58689301651621,0 -121.9250824724099,36.58688565273564,0 -121.9250421292295,36.58694351140418,0 -121.9249914276437,36.58700665352989,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
