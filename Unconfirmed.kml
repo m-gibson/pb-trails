@@ -2,40 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Unconfirmed.kml</name>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0055ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00aaff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
+	<StyleMap id="msn_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_ylw-pushpin0">
@@ -48,6 +22,55 @@
 		</IconStyle>
 		<LineStyle>
 			<color>ff0055ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin17">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
@@ -74,7 +97,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin17">
+	<Style id="sn_ylw-pushpin6">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -87,19 +110,32 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin0">
+	<Style id="sh_ylw-pushpin6">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -114,7 +150,7 @@
 		<name>Unconfirmed</name>
 		<Placemark>
 			<name>?</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -124,7 +160,7 @@
 		</Placemark>
 		<Placemark>
 			<name>AM 1</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -134,31 +170,11 @@
 		</Placemark>
 		<Placemark>
 			<name>AM 2</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
 					-121.9292499867038,36.587360730002,0 -121.9291657884825,36.58727638985747,0 -121.9290242705774,36.58731372135716,0 -121.9288415699844,36.58736973635809,0 -121.9286154891832,36.58720214047555,0 -121.9283672848241,36.58711427092722,0 -121.9282336299746,36.5872323362036,0 -121.928157281698,36.58736491506018,0 -121.9280150600422,36.58739395506691,0 -121.9278804717881,36.58753292302225,0 -121.9278517945496,36.58758978781164,0 -121.9277077161936,36.58768827600397,0 -121.927661915891,36.58775353201653,0 -121.9276526380648,36.58784988326283,0 -121.927534823203,36.58788350020306,0 -121.9275317227965,36.58788525993886,0 -121.9274042384922,36.58800246088416,0 -121.9272639570379,36.58812527496707,0 -121.9272277938766,36.58816027270449,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>MMH 1</name>
-			<styleUrl>#msn_ylw-pushpin13</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					-121.9267284010806,36.58775505887206,0 -121.9266562859693,36.58771558109547,0 -121.9267018182776,36.58767772497249,0 -121.9267182753393,36.58762740531227,0 -121.9266995293094,36.58755244097952,0 -121.9266784224402,36.58749988905122,0 -121.9266613651867,36.58748200585805,0 -121.9266321280766,36.58756586343489,0 -121.9265749563741,36.58756681980619,0 -121.9265325917308,36.587532314983,0 -121.9264840184015,36.58750621385239,0 -121.9264651101862,36.58750222268461,0 -121.9264204661441,36.58751831086082,0 -121.9263551720094,36.58756532580877,0 -121.9262743780095,36.58756440082561,0 -121.9261527620279,36.58754040535472,0 -121.9260574589484,36.58751720024842,0 -121.9260513474711,36.58747205141267,0 -121.9260632688108,36.58743217425657,0 -121.9260952903187,36.58738632340424,0 -121.9260754449335,36.58732705365093,0 -121.9260577264501,36.58728649650206,0 -121.9260242124566,36.58723049674367,0 -121.9259478044024,36.58719448720325,0 -121.9258896847908,36.58720278107531,0 -121.9258381763127,36.58720500860597,0 -121.9258284920054,36.58719343282827,0 -121.9258399619619,36.58714388846214,0 -121.925851375952,36.58709458616287,0 -121.9258421157919,36.58703759036293,0 -121.9257720072196,36.5870088899238,0 -121.9256929128764,36.58696537521063,0 -121.9256613635925,36.58695430429378,0 -121.9256581423692,36.58700746717056,0 -121.9255749683448,36.58703436222076,0 -121.9255566725166,36.58706406856804,0 -121.9255220020312,36.5870561859119,0 -121.925460838649,36.58699830166543,0 -121.9254431194156,36.58693599836398,0 -121.9254326506022,36.58688541129551,0 -121.9254003386296,36.58688008621964,0 -121.9254131870702,36.58683084946295,0 -121.9253351356279,36.58679590663629,0 -121.9252988846571,36.586783942228,0 -121.9252294163164,36.58684377734567,0 -121.9251887436318,36.58689301651621,0 -121.9250824724099,36.58688565273564,0 -121.9250421292295,36.58694351140418,0 -121.9249914276437,36.58700665352989,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>MMH 12</name>
-			<styleUrl>#msn_ylw-pushpin13</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					-121.930429693082,36.58240343529604,0 -121.9301312637182,36.58223825419024,0 -121.9301243659706,36.5822306822126,0 -121.9298003747864,36.58200031984663,0 -121.929788792038,36.58198796437089,0 -121.9297687535083,36.58196682874539,0 -121.9295384458532,36.58170348830068,0 -121.9293672811071,36.58144762039662,0 -121.9292733951279,36.58129119221314,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
@@ -213,18 +229,8 @@
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>MMH 5</name>
-			<styleUrl>#msn_ylw-pushpin13</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					-121.9250558595642,36.58888111338101,0 -121.9249724481424,36.58864123879442,0 -121.9249150621982,36.58852351447673,0 -121.9248147714142,36.58833268749156,0 -121.9247142923248,36.58820544594398,0 -121.9247061239098,36.58819950323941,0 -121.9245886300609,36.58807567349204,0 -121.924442995962,36.58795221471165,0 -121.9243406014229,36.58785056876484,0 -121.9242618553499,36.58780523444928,0 -121.9241133757245,36.58786569359911,0 -121.924097222876,36.58786683041933,0 -121.9239456833489,36.58786873485173,0 -121.923811448591,36.5877981102341,0 -121.9236535379931,36.58775858150623,0 -121.9235692286537,36.5877635647805,0 -121.9234926976637,36.58774002020663,0 -121.9234270212782,36.58768526715294,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
 			<name>Sawmill Gulch Tr</name>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -244,17 +250,17 @@
 		</Placemark>
 		<Placemark>
 			<name>Untitled Path</name>
-			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
-					-121.9303390692008,36.59841143735208,0 -121.9304662442801,36.59832233208887,0 -121.9305522940705,36.59821964743296,0 -121.9308284810286,36.59821671857537,0 -121.9309438092456,36.5982591525926,0 -121.9311155282391,36.59814794686044,0 -121.9311233202451,36.5980591801878,0 -121.9313913464236,36.59804518814597,0 -121.9315757031443,36.59797105348372,0 -121.9316001277701,36.59796143323477,0 -121.9315914448833,36.59790551861482,0 -121.9316956919769,36.59774001767816,0 -121.9319152592264,36.5977190530598,0 -121.9320978557384,36.59773258604371,0 -121.9322169420199,36.59769654243139,0 -121.9323273498558,36.59768424734375,0 -121.9324380200111,36.59758626896285,0 -121.9324641540632,36.59756857565115,0 
+					-121.9303390692008,36.59841143735208,0 -121.9304662442801,36.59832233208887,0 -121.9305522940705,36.59821964743296,0 -121.9308284810286,36.59821671857537,0 -121.9309438092456,36.5982591525926,0 -121.9311155282391,36.59814794686044,0 -121.9311233202451,36.5980591801878,0 -121.9313913464236,36.59804518814597,0 -121.9315757031443,36.59797105348372,0 
 				</coordinates>
 			</LineString>
 		</Placemark>
 		<Placemark>
 			<name>Road 23</name>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -264,7 +270,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Road 21</name>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -274,7 +280,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Road 22</name>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
